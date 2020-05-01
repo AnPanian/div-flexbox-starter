@@ -104,8 +104,9 @@ html {
 body {
   font-family: 'Source Sans Pro', sans-serif;
   padding: 2em;
-  font-size: 1.25em;
+  font-size: 16px;
   height: 100%;
+  background-color:black;
 }
 
 .wrapper {
@@ -116,16 +117,24 @@ body {
 }
 
 .div-1, .div-2, .div-3 {
-  /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
-  color: #fff;
-  line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
-  width:30%;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  height: 300px;
+    /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
+    color: ghostwhite;
+    line-height: 1.5em;
+    font-size: 1.6em;
+    background-color: black;
+    width: 30%;
+    display: flex;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    padding: 1em;
+    border: solid darkgreen .05em;
+}
+p {
+    font-family:'Titillium web';
+    font-size: .70em;
+    font-weight: 300;
 }
 
 
